@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Bases Numéricas</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="shortcut icon" href="img/calculadora.png" type="image/x-icon">
+    <script src="ex.js"></script>
+  </head>
+  <body>
+    <h1>Conversor de Bases Numéricas</h1>
+
+<section>
+  
+        <h2 >Calculo basico numerico</h2>
+        <div class="primeiro">
+          <h2>Insira o primeiro valor:</h2>
+          <input type="number"id="numb1"placeholder="Digite o primeiro valor aqui"/>
+        </div>
+
+        <div class="primeiro">
+          <h2>Insira o segundo valor:</h2>
+          <input type="number"id="numb2"placeholder="Digite o segundo valor aqui"/>
+        </div>
+
+        <br/>
+        Escolha a operação: <br />
+        <button class="btn" onclick="soma()">Soma</button>
+        <button class="btn" onclick="subtracao()">Subtração</button>
+        <button class="btn" onclick="multiplicacao()">Multiplicação</button>
+        <button class="btn" onclick="divisao()">Divisão</button>
+        <p id="resultado"></p> <br>
+</section>
+
+      <!-- Divisao das calculadoras -->
+<section>
+  
+        <h4>Conversor de Bases Numéricas</h4>
+
+        <input type="number" id="numb" placeholder="Digite o valor aqui" /> <br />
+        <button class="btn" onclick="converter()">Converter</button>
+
+      
+    
+
+    <table >
+      <tr>
+        <td>Valor Decimal</td>
+        <td><p id="text1"></p></td>
+      </tr>
+      <tr>
+        <td>Valor Hexadecimal</td>
+        <td><p id="text2"></p></td>
+      </tr>
+      <tr>
+        <td>Valor Octal</td>
+        <td><p id="text3"></p></td>
+      </tr>
+      <tr>
+        <td>Valor Binário</td>
+        <td><p id="text4"></p></td>
+      </tr>
+    </table></section>
+  
+  </body>
+</html>
